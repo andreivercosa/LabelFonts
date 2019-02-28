@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:local="clr-namespace:LabelFonts" x:Class="LabelFonts.MainPage">
+    <StackLayout>
+        <!-- Place new controls here -->
+        <Label Text="BEM VINDO"
+               FontSize="30"
+               HorizontalOptions="Center"
+               VerticalOptions="CenterAndExpand"
+               FontFamily="DancingScript-Bold.ttf#DancingScript-Bold"
+               x:Name="label_01"
+               />
+        <Label Text="WELCOME"
+               FontSize="30"
+               HorizontalOptions="Center"
+               VerticalOptions="CenterAndExpand"
+               FontFamily="IndieFlower.ttf#IndieFlower"
+               x:Name="label_02"
+               />
+        <Label Text="WILLKOMMEN"
+               FontSize="30"
+               HorizontalOptions="Center"
+               VerticalOptions="CenterAndExpand"
+               FontFamily="Pacifico-Regular.ttf#Pacifico-Regular"
+               x:Name="label_03"
+               />
+        <Button Text="CHANGE FONTS"
+                HorizontalOptions="Center"
+               VerticalOptions="CenterAndExpand"
+                Clicked="MudarFonte"
+                />
+    </StackLayout>
+</ContentPage>
